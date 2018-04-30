@@ -10,3 +10,7 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 5) Press setting > theme > tick it
 6) You can download Notepad++ or Brackets to edit it https://notepad-plus-plus.org/zh/ http://brackets.io/
 
+# fix log
+2018/04/30 v0.1 starting
+2018/04/30 v0.2 user box color fix
+2018/05/01 v0.3 server user list name color fix
