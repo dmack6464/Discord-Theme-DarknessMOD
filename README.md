@@ -1,6 +1,6 @@
 # Info
-My discord server https://discord.gg/t9JTkdw
-^ for upadte notification 
+My discord server https://discord.gg/t9JTkdw for upadte notification or other stuff
+ 
 
 # How to install
 1) download BandagedBD.exe https://github.com/rauenzi/BetterDiscordApp/releases/
