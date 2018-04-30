@@ -1,5 +1,5 @@
 # Info
-My discord server https://discord.gg/t9JTkdw for upadte notification or other stuff
+My discord server https://discord.gg/t9JTkdw for <mark>upadte notification</mark> or other stuff
  
 
 # How to install
