@@ -4,12 +4,12 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 
 # How to install
 <ol>
-<li>download BandagedBD.exe https://github.com/rauenzi/BetterDiscordApp/releases/</li>
-<li>download the theme</li>
-<li>Put the filename.theme.css into %appdata%\BetterDiscord\themes</li>
-<li>Press Ctrl + R in discord to reload</li>
-<li>Press setting > theme > tick it</li>
-<li>You can download Notepad++ or Brackets to edit it https://notepad-plus-plus.org/zh/ http://brackets.io/</li>
+<li>download <b>BandagedBD.exe</b> https://github.com/rauenzi/BetterDiscordApp/releases/</li>
+<li>download the <b>theme</b></li>
+<li>Put the <b>Darkness.theme.css</b> into <b>%appdata%\BetterDiscord\themes</b></li>
+<li>Press <b>Ctrl</b> + <b>R</b> in discord to reload</li>
+<li>Press <b>setting > theme > tick it</b></li>
+<li>You can download <b>Notepad++</b> or <b>Brackets</b> to edit it https://notepad-plus-plus.org/zh/ http://brackets.io/</li>
 </ol>
  
 # fix log
