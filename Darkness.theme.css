@@ -1,4 +1,4 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.2"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.3"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 element.style {
@@ -301,7 +301,7 @@ background-color:rgb(50,50,50);
 .lookFilled-1Gx00P.colorBrand-3pXr91:active { background-color: rgb(50,50, 50); }
 .lookFilled-1Gx00P.colorBrand-3pXr91 { background-color: rgb(30,30,30); }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover { background-color: rgb(70,70,70); }
-a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var { color: rgb(255, 255, 250); }
+
 .theme-dark .cardPrimaryEditable-3KtE4g { background: rgba(30,30,30, 1); border-color: rgb(30,30,30); }
 .theme-dark .cardPrimaryEditable-3KtE4g:active { background: rgba(30,30,30, 1); border-color: rgb(30,30,30); }
 .theme-dark .cardPrimaryEditable-3KtE4g:hover { background: rgba(70,70,70, 1); border-color: rgb(70,70,70); }
@@ -660,12 +660,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K { 
         background-color: rgba(0,0,0,1);
 }
-a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var { 
-    color: rgba(255,255,250,1); 
-}
-a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var { 
-    color: rgba(255,255,250,1); 
-}
+
+
 .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: rgba(0,0,0,1);
 }
