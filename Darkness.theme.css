@@ -1,4 +1,4 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.1"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.2"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 element.style {
@@ -627,9 +627,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 /*user box*/
 .container-1UB9sr,
 .container-2Thooq {
-    background: rgb(30,30,30);
+    background: rgb(0,0,0);
     border-radius: 0px;
-    border-bottom: 0px solid rgb(30,30,30);
+    border-bottom: 0px solid rgb(0,0,0);
 }
 
 .directionRow-3v3tfG { background-color: transparent; -webkit-box-direction: normal; -webkit-box-orient: horizontal; flex-direction: row; }
