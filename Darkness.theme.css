@@ -1,8 +1,8 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.7"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.8"}*//{}
 
 
 /* change font style here,just delete it if you want default font style*/
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://rawgit.com/Waterin/Fonts/1.0/Fonts.css?family=Oswald');
 
 * { font-family: Oswald !important; }
 
@@ -19,6 +19,106 @@
 
 
 
+
+
+
+
+
+
+
+
+
+.avatarSpeaking-1wJCNq {
+    -webkit-box-shadow: 0 0 0 2px #fffffa, inset 0 0 0 1.5px #2f3136;
+    box-shadow: 0 0 0 2px #fffffa, inset 0 0 0 1.5px #2f3136;
+}
+.avatarDefault-35WC3R {
+    -webkit-box-shadow: 0 0 0 0 #1e1e1e, inset 0 0 0 0 #1e1e1e;
+    box-shadow: 0 0 0 0 #1e1e1e, inset 0 0 0 0 #1e1e1e;
+}
+.inner-btChU7 .rtc-connection-status-connected {
+    color: #fffffa;
+}
+.container-3nXdBP .debugButton-3O0cUb:hover {
+    color: #fffffa;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+.container-3nXdBP .debugButton-3O0cUb {
+    color: #fffffa;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+.secured-17ypA8:before {
+    background-color:#fffffa;
+    background: url(/assets/0c89a0b25036b406bcbcf37701ec738f.svg) 50% no-repeat;
+    background-size: 9px 12px;
+    content: " ";
+    display: inline-block;
+    height: 12px;
+    margin-right: 4px;
+    vertical-align: bottom;
+    width: 9px;
+}
+.secured-17ypA8 {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    color: #fffffa;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 500;
+}
+.container-3nXdBP hr {
+    border: 1px solid #000;
+    border-bottom: none;
+    margin: 14px -15px;
+}
+.container-3nXdBP section p {
+    -moz-user-select: text;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    color: #fffffa;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+    user-select: text;
+}
+.sparkline-3aW7Y4 {
+    background: #000;
+    height: 30px;
+    margin-bottom: 8px;
+}
+.popout-3sVMXz section {
+    background-color: hsla(0,0%,0%,1);
+    border-radius: 0 0 3px 3px;
+    padding: 20px;
+}
+.popoutTop-3uu9vG.noArrow-3BYQ0Z, .popoutTopRight-3BzFIE.noArrow-3BYQ0Z {
+    background: black;
+    margin-bottom: 10px;
+}
+
+.popout-3sVMXz header {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background-color: rgba(0,0,0,1);
+    border-radius: 3px 3px 0 0;
+    color: #fffffa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    padding: 13px;
+    position: relative;
+    text-transform: uppercase;
+}
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
     -webkit-transition: opacity .2s ease-in-out;
     color: #fffffa;
