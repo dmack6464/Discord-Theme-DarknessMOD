@@ -1,11 +1,19 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.5"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.6"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 *{cursor: url(https://i.imgur.com/5TJRuma.png), auto !important;}
-
-
-
-
+.theme-dark .item-1GzJrl.invite-271nFU {
+    color: #fffffa;
+}
+.theme-dark .item-1GzJrl.invite-271nFU:hover {
+    color: #fffffa;
+}
+.theme-dark .item-1GzJrl.leave-1DRJfn {
+    color: #fffffa;
+}
+.theme-dark .item-1GzJrl.leave-1DRJfn:hover {
+    color: #fffffa;
+}
 .root-SR8cQa {
     background: black;
     border-radius: 8px;
@@ -13,8 +21,7 @@
     position: relative;
     width: 600px;
 }
-    
-    
+
 .message-group .edit-message .edit-operation > a:hover { color:#dddddd;text-decoration: none; }
 .message-group .edit-message .edit-operation > a { color:#fffffa;text-decoration: none; }
 .option-popout .btn-item:hover { background-color: rgb(70,70,70); color:#fffffa; cursor: pointer; }
