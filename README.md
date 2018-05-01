@@ -24,5 +24,5 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 2018/05/01 v0.4 channel list fix<br>
 2018/05/01 v0.5 add cursor and some fix<br>
 2018/05/01 v0.6 leave server color fix<br>
-2018/05/01 v0.6 friend rrequest button and game state fix<br>
-
+2018/05/01 v0.7 friend rrequest button and game state fix<br>
+2018/05/01 v0.8 voice chat fix
