@@ -22,4 +22,4 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 <img src="https://i.imgur.com/BhWe52I.jpg" alt="server">
 <img src="https://i.imgur.com/Kg577je.jpg" alt="friend">
 ^ friend icon and name are edited to protect privacy
-<img src="https://i.imgur.com/xG2OB7J.jpg" alt="setting">
+<img src="https://i.imgur.com/oVo2xI9.jpg" alt="setting">
