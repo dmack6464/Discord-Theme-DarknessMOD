@@ -1,4 +1,4 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.3"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.4"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 element.style {
@@ -219,8 +219,44 @@ user agent stylesheet
     background: black !important;
     border: 2px dashed #000;
 }
+.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+    color: #c8c8c3;
+}
+.colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
+    color: #c8c8c3;
+}
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: #c8c8c3;
+}
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: #c8c8c3;
+}
+.unread-1Dp-OI {
+    background-color: rgba(255, 255,250, 1);
+    border-radius: 0px 6px 6px 0px;
+    height: 8px;
+    left: 0px;
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    width: 4px;
+}
 
+.marginReset-3RfdVe {
+    color: #c8c8c3;
+    margin: 0;
+}
 
+.icon-sxakjD {
+    color: #c8c8c3;
+    display: block;
+    margin-right: 4px;
+    opacity: .6;
+}
+.foreground-2W-aJk {
+    color: #c8c8c3;
+    opacity: 1.0;
+}
 
 
 .ui-standard-sidebar-view, .ui-standard-sidebar-view * { color: rgb(255, 255, 250); box-sizing: border-box; }
