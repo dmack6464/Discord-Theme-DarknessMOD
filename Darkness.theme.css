@@ -1,7 +1,75 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.6"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.7"}*//{}
+
+
+/* change font style here,just delete it if you want default font style*/
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+* { font-family: Oswald !important; }
+
+
+
+
+
+/* change cursor image here,just delete it if you want default cursor*/
 *{cursor: url(https://i.imgur.com/5TJRuma.png), auto !important;}
+
+
+
+
+
+
+
+
+.header-QKLPzZ {
+    background: black;
+    padding: 20px;
+}
+.activity-1ythUs {
+    background: black;
+    padding: 20px;
+}
+.tabBarContainer-1s1u-z {
+    background: black;
+    border-top: 1px solid hsla(0,0%,0%,1);
+    padding-left: 20px;
+}
+.tab-bar.tabBar-2MuP6- {
+    background: black;
+    border: 0;
+    margin: 0;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    background-color: #000;
+    color: rgba(0,0,0,1);
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+    background-color: rgba(70,70,70,1);
+    color: rgba(70,70,70,1);
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background-color: #000;
+    color: #000;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background-color: rgba(70,70,70,1);
+    color: rgba(70,70,70,1);
+}
+.theme-dark .user-settings-games .now-playing .last-played, .theme-dark .user-settings-games .now-playing .overlay-status-text, .theme-light .user-settings-games .now-playing .last-played, .theme-light .user-settings-games .now-playing .overlay-status-text {
+    color: #fffffa;
+}
+.theme-dark .user-settings-games .now-playing, .theme-light .user-settings-games .now-playing {
+    background-color: #1e1e1e;
+}
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
+    color: rgba(255,255,250,1);
+}
+.theme-dark .user-settings-games .now-playing .overlay-toggle-icon-off .fill, .theme-dark .user-settings-games .now-playing .overlay-toggle-icon-on .fill, .theme-light .user-settings-games .now-playing .overlay-toggle-icon-off .fill, .theme-light .user-settings-games .now-playing .overlay-toggle-icon-on .fill {
+    fill: #fffffa;
+}
+.theme-dark .user-settings-games .now-playing .game-name, .theme-light .user-settings-games .now-playing .game-name {
+    color: #fffffa;
+}
+
 .theme-dark .item-1GzJrl.invite-271nFU {
     color: #fffffa;
 }
@@ -782,9 +850,7 @@ color: rgba(255,255,250,1);
     color: rgba(255,255,250,1);
     opacity: 0.8; 
 }
-* {
- font-family: Oswald !important;
- }
+
 .app {
 	background-image: rgba(0,0,0,1);
 	background-size: cover !important;
