@@ -16,6 +16,7 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 2018/04/30 v0.1 starting <br>
 2018/04/30 v0.2 user box color fix <br>
 2018/05/01 v0.3 server user list name color fix <br>
+2018/05/01 v0.4 channel list fix
 
 # Preview
 <img src="https://i.imgur.com/QtS7KD9.jpg" alt="server">
