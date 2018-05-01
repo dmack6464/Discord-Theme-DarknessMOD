@@ -1,14 +1,27 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.4"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"0.5"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-element.style {
-    padding: 10px;
-    border-color: rgb(70, 70, 70);
-    background-color: rgb(70, 70, 70);
+*{cursor: url(https://i.imgur.com/5TJRuma.png), auto !important;}
+
+
+
+
+.root-SR8cQa {
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
 }
-element.style {
-    color: rgb(255, 0,0);
-}
+    
+    
+.message-group .edit-message .edit-operation > a:hover { color:#dddddd;text-decoration: none; }
+.message-group .edit-message .edit-operation > a { color:#fffffa;text-decoration: none; }
+.option-popout .btn-item:hover { background-color: rgb(70,70,70); color:#fffffa; cursor: pointer; }
+.option-popout .btn-item { background-color: rgb(0,0,0); color:#fffffa; cursor: pointer; }
+.option-popout { background-color: rgb(30,30,30);padding: 2px 0px; width: 64px;border: rgb(30,30,30); }
+.theme-dark .message-group .edit-message .edit-operation { color: rgba(255, 255, 250,1); }
+
 .theme-dark .separator-gCa7yv {
     background-color: rgb(255, 255, 250);
 }
@@ -257,6 +270,11 @@ user agent stylesheet
     color: #c8c8c3;
     opacity: 1.0;
 }
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color: #fffffa;
+}
+
+
 
 
 .ui-standard-sidebar-view, .ui-standard-sidebar-view * { color: rgb(255, 255, 250); box-sizing: border-box; }
