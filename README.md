@@ -18,9 +18,12 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 </ol>
  
 # fix log
+<pre>
 2018/04/30 v0.1 starting <br>
 2018/04/30 v0.2 user box color fix <br>
 2018/05/01 v0.3 server user list name color fix <br>
 2018/05/01 v0.4 channel list fix
 2018/05/01 v0.5 add cursor and some fix
 2018/05/01 v0.6 leave server color fix
+2018/05/01 v0.6 friend rrequest button and game state fix
+</pre>
