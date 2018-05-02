@@ -24,6 +24,7 @@
     --k5:#323232;   /*button rgb(50,50,50) var(--k5)*/
     --k7:#464646;   /*hover rgb(70,70,70) var(--k7)*/
     --k:#000;       /*main color rgb(0,0,0) var(--k)*/
+    --wk:#c8c8c3;   /*unread msg var(--wk)*/
     --w:#fffffa;    /*text rgb(255,255,250) var(--w)*/
     --r:#ff0000;    /*mention rgb(255,0,0) var(--r)*/
     --rh:#ff9b96;    /*mention hover rgb(255,155,150) var(--rh)*/
@@ -263,7 +264,7 @@
     cursor: pointer;
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-    color: #fff;
+    color: var(---w);
     background-color: var(--k7);
 }
 .horizontal-1ae9ci > .flex-1xMQg5:first-child, .horizontal-1ae9ci > .flexChild-faoVW3:first-child { background-color: var(--k); margin-left: 0px; }
@@ -377,7 +378,7 @@ element.style {
 }
 .bda-slist .bda-footer button {
     background: var(--k7);
-    color: #FFF;
+    color: var(---w);
     border-radius: 5px;
     display: block;
     margin-left: auto;
@@ -428,7 +429,7 @@ user agent stylesheet
 
 .theme-dark .item-1Yvehc:hover {
 	background: var(--k5);
-	color: #fff;
+	color: var(---w);
 }
 .uploadDropModal-2kTwbc {
    background: var(--k);
@@ -441,16 +442,16 @@ user agent stylesheet
     border: 2px dashed var(--k);
 }
 .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
-    color: #c8c8c3;
+    color: var(--wk);
 }
 .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
-    color: #c8c8c3;
+    color: var(--wk);
 }
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
-    color: #c8c8c3;
+    color: var(--wk);
 }
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
-    color: #c8c8c3;
+    color: var(--wk);
 }
 .unread-1Dp-OI {
     background-color: var(--w);
@@ -464,18 +465,18 @@ user agent stylesheet
 }
 
 .marginReset-3RfdVe {
-    color: #c8c8c3;
+    color: var(--wk);
     margin: 0;
 }
 
 .icon-sxakjD {
-    color: #c8c8c3;
+    color: var(--wk);
     display: block;
     margin-right: 4px;
     opacity: .6;
 }
 .foreground-2W-aJk {
-    color: #c8c8c3;
+    color: var(--wk);
     opacity: 1.0;
 }
 .nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
