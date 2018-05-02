@@ -19,8 +19,8 @@
 
 /*change color if you like*/
 :root {
-    --k3:#1e1e1e;   /*button rgb(30,30,30) var(--k3)*/
     --k2:#141414;   /*chat jump to rgb(20,20,20) var(--k2)*/
+    --k3:#1e1e1e;   /*button rgb(30,30,30) var(--k3)*/
     --k5:#323232;   /*button rgb(50,50,50) var(--k5)*/
     --k7:#464646;   /*hover rgb(70,70,70) var(--k7)*/
     --k:#000;       /*main color rgb(0,0,0) var(--k)*/
