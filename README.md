@@ -27,4 +27,5 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 2018/05/01 v0.7 friend rrequest button and game state fix<br>
 2018/05/01 v0.8 voice chat fix and text syle<br>
 2018/05/02 v0.9 top bar fix and color root<br>
-2018/05/02 v0.9 screenshare, button fix<br>
+2018/05/03 v1.0 background, button fix<br>
+2018/05/04 v1.1 screenshare, button fix<br>
