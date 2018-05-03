@@ -1,4 +1,4 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"1.1"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"1.2"}*//{}
 
 
 /* change font style here,just delete it if you want default font style*/
@@ -34,6 +34,28 @@
 
 
 
+.message-group .comment .markup code.inline {
+    background: #f9f9f9;
+    border-radius: 3px;
+    font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
+    font-size: 85%;
+    height: auto;
+    padding: .2em;
+    text-indent: 0;
+    color: var(--w);
+    width: auto;
+}
+.theme-dark .message-group h2 .timestamp { 
+    color: var(--w); 
+}
+.theme-dark .hljs {
+    -webkit-text-size-adjust: none;
+    background: #002b36;
+    color:var(--w) ;
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+}
 .directionColumn-35P_nr {
     background: var(--k)!important;
     -webkit-box-direction: normal;
@@ -1230,9 +1252,7 @@ color: var(--w);
     
 }
 
-.theme-dark .message-group h2 .timestamp { 
-    color: var(--w); 
-}
+
 .theme-dark .message-group .comment .markup { 
     color: var(--w); 
 }
