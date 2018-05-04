@@ -31,3 +31,4 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 2018/05/04 v1.1 screenshare, button fix<br>
 2018/05/04 v1.2 coding block fix<br>
 2018/05/04 v1.3 background fix<br>
+2018/05/04 v1.4 profile and invite fix fix<br>
