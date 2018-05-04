@@ -1,4 +1,4 @@
-//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"1.3"}*//{}
+//META{"name":"Darkness","description":"https://github.com/YzY229/Discord-Theme","author":"YzY229","version":"1.4"}*//{}
 
 
 /* change font style here,just delete it if you want default font style*/
@@ -38,7 +38,151 @@
 
 
 
-
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header {
+    border-bottom: none;
+    background: var(--k);
+    text-align: center;
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-header header {
+    color: var(--w);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 0;
+    text-transform: none;
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .blurb-zsamaY {
+    color: var(--w);
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 1;
+}
+.form-deprecated .form-inner, .form.deprecated .form-inner {
+    background-color: var(--k);
+    padding: 28px 40px 48px;
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .copy-3nFbq8 {
+    background-color: var(--k);
+    font-size: 16px;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    width: auto;
+    color: var(--w);
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions {
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    background-color: var(--k);
+    border-top: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    color: var(--w);
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .expireText-34b09Y {
+    color: var(--w);
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 5px;
+    text-align: center;
+}
+.wrapper-O5i5-0 .instantInviteModal-3vhcvC .clipboardInputInner-RLx2hK input {
+    color: var(--k);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: var(--w);
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.checkbox .checkbox-inner+span {
+    color: var(--w);
+    margin-left: 8px;
+}
+.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text {
+    color: var(--w);
+    font-size: 11px;
+    line-height: 13px;
+    margin: 15px 0;
+}
+.wrapper-O5i5-0 .instantInviteModalAdvanced-3qJETM .form-actions {
+    background-color: var(--k);
+    border-top: none;
+    padding-top: 0;
+}
+.wrapper-O5i5-0 .instantInviteModalAdvanced-3qJETM .form-actions .btn-default {
+    background-color: transparent;
+    color: var(--w);
+}
+.wrapper-O5i5-0 .instantInviteModalAdvanced-3qJETM .checkbox .checkbox-inner input:checked+span {
+    border-color: var(--w);
+}
+.form-deprecated .btn-primary, .form.deprecated .btn-primary {
+    background-color: var(--k3);
+    border-radius: 3px;
+    color: var(--w);
+}
+.form-deprecated .btn-primary, .form.deprecated .btn-primary:hover {
+    background-color: var(--k7);
+    border-radius: 3px;
+    color: var(--w);
+}
+.wrapper-O5i5-0 {
+    background: var(--k);
+    border-radius: 5px;
+    height: 246px;
+    position: relative;
+    width: 440px;
+}
+.headerPlaying-j0WQBV {
+    background: var(--k);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--k);
+    color: var(--w);
+}
+.theme-dark .quickMessage-1yeL4E {
+    background-color: var(--k3);
+    border-color: var(--k);
+    color: var(--w);
+}
+.inline-136HKr .pro-1T8RK7 {
+    margin-right: 3px;
+    color: var(--w);
+}
+.theme-dark .primary-jw0I4K {
+    color: var(--w);
+    opacity: 1;
+}
+#autocomplete-popout .autocomplete-scroller {
+    background: var(--k);
+    height: 280px;
+}
+.directionColumn-35P_nr {
+    background: var(--k);
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+}
+.theme-dark #autocomplete-popout .autocomplete-arrow, .theme-dark #autocomplete-popout .autocomplete-header-background {
+    background-color: var(--k);
+}
+.theme-dark #autocomplete-popout .empty h4 {
+    color: var(--w);
+}
+.theme-dark #autocomplete-popout .empty p {
+    color: var(--w);
+}
 
 .theme-dark .header-2RyJ0Y {
     color: var(--w);
