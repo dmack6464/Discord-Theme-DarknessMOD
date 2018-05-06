@@ -1,9 +1,10 @@
 # Info
-<li>Modified version of Darkness.</li>
-<li>YzY229's Discord server: https://discord.gg/t9JTkdw</li>
-<li>My discord server: https://discord.gg/7HrZXFq</li>
-<li>YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-Darkness</li>
-<li>Darkness is a surperior alternative to many other Discord dark themes in terms of simplicity and ease of use.</li>
+Modified version of Darkness.<br>
+YzY229's Discord server: https://discord.gg/t9JTkdw<br>
+My discord server: https://discord.gg/7HrZXFq<br>
+YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-Darkness<br>
+<br>
+<b>Darkness is a surperior alternative to many other Discord dark themes in terms of simplicity and ease of use.</b><br>
  
 # (Unmodded Version) Preview
 <img src="https://i.imgur.com/BhWe52I.jpg" alt="server">
@@ -28,7 +29,7 @@
 <li>Customise mention highlight and marker colours!</li>
  
 # Fix Log
-06/05/2018 First modded version, based on original version 0.9
+06/05/2018 First modded version, based on original version 0.9<br>
 
 # (Unmodded Version) fix log
 2018/04/30 v0.1 starting <br>
