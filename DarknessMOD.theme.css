@@ -41,6 +41,15 @@
     --st:#212121; /* scrollbarcolour */
 }
 
+/* fix for ThemeRepo download button */
+.bda-slist .bda-footer { color: #ffffff; }
+
+/* fix for PluginRepo top margin */
+.theme-dark .modal-3HD5ck { background-color: var(--k); }
+
+/* fix for PluginRepo download button */
+.pluginrepo-modal .pluginEntry.downloadable .btn-download { color: #ffffff; }
+
 /* category fixer for EditUsers/EditServers plugin */
 .inner-3wn6Q5 { background-color: var(--k) !important; }
 .marginBottom8-AtZOdT { margin-bottom: 0px; }
