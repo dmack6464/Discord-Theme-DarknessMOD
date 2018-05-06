@@ -26,10 +26,12 @@ YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-D
 <li>Customise invite box colours!</li>
 <li>Customise the titlebar colour!</li>
 <li>Customise mention highlight and marker colours!</li>
+<li>No more uppercase categories or role labels!</li>
  
 # Fix Log
 06/05/2018 First modded version, based on original version 0.9<br>
-06/05/2018 Fixes for ThemeRepo and PluginRepo menus
+06/05/2018 Fixes for ThemeRepo and PluginRepo menus<br>
+07/05/2018 Added options for squared avatars<br>
 
 # (Unmodded Version) fix log
 2018/04/30 v0.1 starting <br>
