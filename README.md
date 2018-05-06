@@ -1,7 +1,11 @@
 # Info
-My discord server https://discord.gg/t9JTkdw for upadte notification or other stuff
+<li>Modified version of Darkness.</li>
+<li>YzY229's Discord server: https://discord.gg/t9JTkdw</li>
+<li>My discord server: https://discord.gg/7HrZXFq</li>
+<li>YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-Darkness</li>
+<li>Darkness is a surperior alternative to many other Discord dark themes in terms of simplicity and ease of use.</li>
  
-# Preview
+# (Unmodded Version) Preview
 <img src="https://i.imgur.com/BhWe52I.jpg" alt="server">
 <img src="https://i.imgur.com/47OpBTc.jpg" alt="friend">
 ^ friend icon and name are edited to protect privacy
@@ -16,8 +20,17 @@ My discord server https://discord.gg/t9JTkdw for upadte notification or other st
 <li>Press <b>setting > theme > tick it</b></li>
 <li>You can download <b>Notepad++</b> or <b>Brackets</b> to edit it https://notepad-plus-plus.org/zh/ http://brackets.io/</li>
 </ol>
+
+# Mods!
+<li>Customise the message text box colour!</li>
+<li>Customise invite box colours!</li>
+<li>Customise the titlebar colour!</li>
+<li>Customise mention highlight and marker colours!</li>
  
-# fix log
+# Fix Log
+06/05/2018 First modded version, based on original version 0.9
+
+# (Unmodded Version) fix log
 2018/04/30 v0.1 starting <br>
 2018/04/30 v0.2 user box color fix <br>
 2018/05/01 v0.3 server user list name color fix <br>
