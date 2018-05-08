@@ -32,6 +32,7 @@ YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-D
 06/05/2018 First modded version, based on original version 0.9<br>
 06/05/2018 Fixes for ThemeRepo and PluginRepo menus<br>
 07/05/2018 Added options for squared avatars<br>
+08/05/2018 Tons of fixes<br>
 
 # (Unmodded Version) fix log
 2018/04/30 v0.1 starting <br>
