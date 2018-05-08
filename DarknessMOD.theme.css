@@ -20,9 +20,9 @@
 /*change color if you like*/
 :root {
     --k2:#141414;   /*chat jump to rgb(20,20,20) var(--k2)*/
-    --k3:#1e1e1e;   /*button rgb(30,30,30) var(--k3)*/
-    --k5:#323232;   /*button rgb(50,50,50) var(--k5)*/
-    --k7:#464646;   /*hover rgb(70,70,70) var(--k7)*/
+    --k3:#191919;   /*button rgb(30,30,30) var(--k3)*/
+    --k5:#1a1a1a;   /*button rgb(50,50,50) var(--k5)*/
+    --k7:#262626;   /*hover rgb(70,70,70) var(--k7)*/
     --k:#000;       /*main color rgb(0,0,0) var(--k)*/
     --wk:#c8c8c3;   /*unread msg var(--wk)*/
     --w:#DDDDDD;    /*text rgb(255,255,250) var(--w)*/
@@ -40,11 +40,162 @@
     --sbg:#111111; /* scrollbar background colour */
     --st:#212121; /* scrollbarcolour */
     --gr:0%; /* icon and other stuff rounding */
-    --accentcolor:050520; /* ignore plz, I replaced most of these */
+    --accentcolor:#3070ff; /* im actually using this now */
     --ebg:#070707; /* embed background */
     --eb:#101010; /* embed border */
     --epc:#707070; /* embed pill colour override, search for pilloverride and uncomment that code to enable */
+    --shctt:#050520; /* ShowHiddenChannels plugin background tooltip colour */
+    --bdtt:#3a71c1; /* override for BetterDiscord Blue */
+    --cbc:#101010; /* code block colour */
+    --cbb:#1a1a1a; /* code block border colour */
+    --uc:#3070ff; /* unread channel marker colour */
+    --bc:#3070ff; /* unread badge colour */
+    --bw:5px; /* member list and channel list divider height */
+    --dc:#3070ff; /* menber list and channel list divider colour */
+    --ch:28px; /* I would like to have channel height at 10px, but discord says fucking nope. set this to 10px if you dont mind rendering issues in the channel list. */
+    --mh:40px; /* same deal as above, I would like this at 25px, but that means rendering issues, this time in the member list. good fucking job Discord. */
 
+}
+
+/* fixes for emote picker while in file upload mode */
+.theme-dark .autocomplete-1vrmpx { background-color: var(--k); }
+.marginLeft8-1YseBe { color: var(--w); }
+
+/* pinned message confirmation dialog bg colour fix */
+.message-2qRu38 .message-group .message-2qRu38 { background-color: #000; border-left-color: #000; }
+.theme-dark .message-2qRu38 { -webkit-box-shadow: none; background-color: #36393f; box-shadow: none;}
+
+/* make top-right buttons accent colour */
+.theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw {
+    color: var(--accentcolor);
+}
+
+/* colour unread channel badge */
+.wrapper-232cHJ {
+    background-color: var(--bc);
+}
+
+/* logged on user status border removal */
+.container-2Thooq .status {
+    border: transparent;
+}
+
+/* avatar status relocate in main profile dialog */
+.statusProfile-3ynqtt {
+    bottom: -3px;
+    right: -3px;
+}
+
+/* remove border from status notis */
+.theme-dark .status-2s6iDp {
+    border-color: transparent;
+}
+
+/* rounding for typing indicator */
+.small-5Os1Bb .statusTyping-2ed9jJ {
+    border-radius: var(--gr);
+}
+
+/* little circle that you can click to remove a role from someone.. rounding */
+.roleCircle-3xAZ1j {
+    border-radius: var(--gr);
+}
+
+/* role display on server profile rounding */
+.role-2irmRk {
+    border-radius: var(--gr);
+}
+
+/* make PinDMS plugin category regular case and bigger font */
+.private-channels header {
+    text-transform: none !important;
+    font-size: 14px !important;
+}
+
+/* make status icon square in friends list */
+#friends .friends-table .friends-row .friends-column-status .status {
+    border-radius: var(--gr);
+}
+
+/* avatar status relocate so it doesnt look weird */
+.avatarStatus-3Ay1VL {
+    bottom: -3px;
+    right: -3px;
+}
+
+.guilds-wrapper .guilds .guild .badge {
+    bottom: -2px;
+    right: -2px;
+    background-color: var(--bc) !important;
+}
+
+.unread-1Dp-OI {
+    background-color: var(--uc) !important;
+    border-radius: 8px 8px 8px 8px !important;
+    height: 10px !important;
+    width: 6px !important;
+}
+
+/* make muted categories names normal */
+.nameCollapsed-34uFWo, .nameDefault-2DI02H, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB, .nameMuted-1MCOt4, .nameUnread-njOjIS {
+    text-transform: none;
+    font-size: 14px;
+}
+
+/* may or may not be code from Server Grid 2 Columns */
+.guilds-wrapper{width: 125px;}
+.guilds-wrapper .scroller-wrap{width: 150px;}
+.guilds-wrapper .guilds { display: flex; flex-flow: row wrap; padding-left: 0; align-content: flex-start;}
+.guilds-wrapper .guilds .guild {margin-left: 8px; margin-top: 8px;}
+.guilds-wrapper .guilds .guild.unread::before {left: -2px; top: 5px; z-index:9000;}
+.guilds-wrapper .guilds .guild:first-child { position: relative;  left: 0; margin: auto; margin-top: 15px;}
+#bd-pub-li {position: absolute; top: 0px; left: 0px;}
+#bd-pub-li #bd-pub-button { position:absolute; width: 100%; text-align: center;}
+.guilds-wrapper .guilds .guild-separator {position: relative; width: 100%; margin-top: 10px;}
+.guilds-wrapper .guilds .friends-online {position: relative; width: 100%; margin: auto; margin-top: 5px;}
+.guilds-wrapper .guilds .guild.selected:before { display: none;}
+.guilds-wrapper .guilds .guild {position: relative;}
+.guilds-wrapper .guilds .dms { width: 100%; display: flex; flex-flow: row wrap;}
+.guilds-wrapper .guilds .dms .guild { left: 0;}
+
+.scroller-wrap .scroller {
+	width: 250px;
+}
+
+.guilds-wrapper.folderopen {
+    overflow: visible !important;
+    width: 170px !important;
+}
+
+.foldercontainer {
+    left: 65%
+}
+
+.guilds-wrapper .scroller-wrap {
+width:100%;
+}
+
+/* fixes for PermissionsViewer highlighted/hover role colour */
+#permissions-modal-wrapper .role-item.selected { background-color: var(--k5); }
+#permissions-modal-wrapper .role-item:hover { background-color: var(--k7); }
+
+/* fix for mention aliases plugin */
+.theme-dark .themed-popout {
+    background-color: var(--k);
+}
+
+.theme-dark .message-group .comment .markup pre {
+    border-color: var(--cbb);
+}
+
+/* override for BetterDiscord blue colour */
+.bd-blue .tooltip {
+    background-color: var(--bdtt);
+}
+
+/* fix for ShowHiddenChannels tooltip colour */
+.showhiddenchannels-tooltip {
+    background-color: var(--shctt) !important;
 }
 
 .theme-dark .embedInner-1-fpTo {
@@ -55,7 +206,7 @@
 /* pilloverride */
 /* .theme-dark .embedPill-1Zntps { background-color: var(--epc) !important; } */
 
-/* everything to enforce icon rounding, may or may not be stolen from Saucey's DarkerDiscord Theme v1.2.6.4 */
+/* nearly everything to enforce icon rounding, may or may not be stolen from Saucey's DarkerDiscord Theme v1.2.6.4 */
 .guild-settings-base-section .avatar-uploader-inner{ background-size:100% 100%; border:none; height:100px; width:100px; border-radius:var(--gr) }
 .theme-dark .avatar-uploader-indicator{ background-color:#101010; filter:grayscale(100%)brightness(130%); border-radius:var(--gr) }
 .avatar-xxlarge{ border-radius:var(--gr); box-shadow:0 0 10px #000 }
@@ -558,9 +709,9 @@ user agent stylesheet
 	background-color: var(--k) !important;
 	box-shadow: none;
 }
-
+/* fixed context menus */
 .theme-dark .itemSubMenu-1vN_Yn {
-	background: var(--k3) url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
+	background: var(--k) url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
 }
 
 .theme-dark .item-1Yvehc:hover {
@@ -583,15 +734,34 @@ user agent stylesheet
 .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
     color: var(--wk);
 }
+
+.containerDefault-3GGEv_ {
+	padding-top: var(--ch);
+	background-color: transparent;
+}
+
+.containerDefault-3GGEv_{position: relative}
+.containerDefault-3GGEv_:before{
+    position: absolute;
+    content:"";
+    height:5px;
+    width:200px;
+    background: var(--bc);
+    border-radius:10px;
+    bottom:20px;
+}
+
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
     color: var(--wk);
     text-transform: none;
     /* increase channel category name font */
     font-size: 14px;
 }
+
 .iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
     color: var(--wk);
 }
+
 .unread-1Dp-OI {
     background-color: var(--w);
     border-radius: 0px 6px 6px 0px;
@@ -742,7 +912,11 @@ background-color:var(--k5);
 .theme-dark .message-group .mentioned .message-text { background: rgba(255,255,0,0.2980392); }
 .theme-dark .topic-2QX7LI { color: var(--w); }
 .channelName-3stJzi svg { color: var(--w);display: inline-block; line-height: 22px; }
-.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB { color: var(--w); text-transform: none; font-size: 14px; }
+.iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
+	color: var(--w);
+	text-transform: none;
+	font-size: 14px;
+}
 .nameHoveredText-1uO31y { color: var(--w); }
 .unread-1Dp-OI { background-color: var(--w); border-radius: 0px 6px 6px 0px; height: 8px; left: 0px; margin-top: -4px; position: absolute; top: 50%; width: 4px; }
 .theme-dark #friends .friends-table .friends-row:hover{background: var(--k7)}
@@ -821,7 +995,34 @@ background-color:var(--k5);
 .horizontal-1ae9ci > .flex-1xMQg5:first-child, .horizontal-1ae9ci > .flexChild-faoVW3:first-child { background-color: transparent; margin-left: 0px; }
 .theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8 { color: var(--w); }
 .theme-dark .descriptionDiscriminator-3vUOCc { color: var(--w); }
-.theme-dark .membersGroup-v9BXpm { color: var(--w); text-transform: none; font-size: 14px }
+/* modded code, using --accentcolor */
+.containerDefault-3GGEv_{position: relative}
+.containerDefault-3GGEv_:before{
+    position: absolute;
+    content:"";
+    height:var(--bw);
+    width:200px;
+    background: var(--dc);
+    border-radius:10px;
+    bottom:20px;
+}
+.theme-dark .membersGroup-v9BXpm{position:relative}
+.theme-dark .membersGroup-v9BXpm:before {
+    content:"";
+    height:var(--bw);
+    width:180px;
+    top:0px;
+    border-radius:10px;
+    position:absolute;
+    background:var(--dc);
+}
+.theme-dark .membersGroup-v9BXpm {
+	color: var(--w);
+	text-transform: none;
+	font-size: 14px;
+    height: var(--mh);
+    padding-top: 5px;
+}
 .theme-dark #autocomplete-popout h3 { color: var(--w); }
 #autocomplete-popout header { color: var(--k) ;-webkit-box-align: center; -webkit-box-direction: normal; -webkit-box-orient: horizontal; -webkit-box-pack: center; align-items: center; background-color: transparent; display: flex; flex-direction: row; height: 54px; justify-content: center; padding: 0px 20px; position: relative; }
 .theme-dark #autocomplete-popout input[type="text"] { color: var(--w); }
@@ -837,6 +1038,8 @@ background-color:var(--k5);
 .bda-dark #bda-qem button:hover,.emote-container:hover{background: var(--k);}
 .search-bar.search-bar-light,.search-bar.search-bar-light .search-bar-inner,.bda-dark #bda-qem button.active{background: var(--k);}
 /*Scrollbars*/
+*::-webkit-scrollbar-track-piece { border: none !important; background: transparent !important; }
+*:not(:hover)::-webkit-scrollbar-thumb { background: transparent !important; border: 0px solid transparent !important; }
 ::-webkit-scrollbar {width: 5px !important;height: 5px !important;}
 ::-webkit-scrollbar-button {display: none !important;}
 ::-webkit-scrollbar-thumb {background:  var(--st) !important;border: transparent !important;}
@@ -1074,7 +1277,7 @@ background-color:var(--k5);
     color: var(--w);
 }
 
-.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code { background: var(--k5); 
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code { background: var(--cbc); 
 color: var(--w); 
 }
 .theme-dark .message-group .comment .edited { 
