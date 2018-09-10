@@ -1,8 +1,12 @@
+[yzyserv]: https://discord.gg/t9JTkdw
+[dmackserv]: https://discord.gg/7HrZXFq
+[original]: https://github.com/YzY229/Discord-Theme-Darkness
+
 # Info
 <b>Darkness is a surperior alternative to many other Discord dark themes in terms of simplicity and ease of use.</b><br>
-YzY229's Discord server: https://discord.gg/t9JTkdw<br>
-My Discord server: https://discord.gg/7HrZXFq<br>
-YzY229's original version of Darkness: https://github.com/YzY229/Discord-Theme-Darkness<br>
+[YzY229's Discord server][yzyserv]<br>
+[My Discord server][dmackserv]<br>
+[YzY229's original version of Darkness][original]<br>
 
 # (Unmodded Version) Preview
 <img src="https://i.imgur.com/BhWe52I.jpg" alt="server">
