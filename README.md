@@ -1,9 +1,11 @@
+[realdark]: https://github.com/dmack6464/RealDark
+
 [yzyserv]: https://discord.gg/t9JTkdw
 [dmackserv]: https://discord.gg/7HrZXFq
 [original]: https://github.com/YzY229/Discord-Theme-Darkness
 
 # Development ABANDONED, original got REMOVED
-<b>[this theme is still supported, looks similar to DarknessMOD][original]</b>
+<b>[this theme is still supported, looks similar to DarknessMOD][realdark]</b>
 # Info
 <b>Darkness is a surperior alternative to many other Discord dark themes in terms of simplicity and ease of use.</b><br>
 [YzY229's Discord server][yzyserv]<br>
